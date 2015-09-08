@@ -1,0 +1,3 @@
+var templates = {
+  taskItem: '<td><input type="checkbox" name="completed" <%= completed ? checked="checked" : "" %> /></td><td><span class="title" style="font-weight: bold; <%= completed ? \'text-decoration:line-through\': "" %>"><%= title%></span><input type="text" name="title" value="<%= title%>" style="display:none; width: 100%;" /></td><td><span class="btn btn-primary edit">Редактировать</span></td><td><span class="btn btn-danger delete">Удалить</span></td>'
+};

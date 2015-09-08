@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.task-low
+{
+  background-color: #cccccc;
+}
+
+.task-normal
+{
+  background-color: #28C900;
+}
+
+.task-high
+{
+  background-color: #FF7878;
+}
